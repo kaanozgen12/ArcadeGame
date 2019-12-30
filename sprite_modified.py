@@ -833,7 +833,7 @@ class AnimatedWalkingSprite(Sprite):
                          center_x=center_x, center_y=center_y)
         self.health = 100
         self.ammo = 0
-        self.weapon=0
+        self.weapon = 0
         self.state = FACE_RIGHT
         self.stand_right_textures: List[Texture] = []
         self.stand_left_textures: List[Texture] = []
